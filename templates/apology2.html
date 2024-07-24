@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Apology
+{% endblock %}
+
+{% block ul %}
+    <li><a class="active" href="/">Home</a></li>
+    <li><a href="">History</a></li>
+    <li><a href="/logout">Log Out</a></li>
+{% endblock %}
+
+{% block main %}
+    <div class="alert alert-warning" role="alert">
+        {{ message }}
+    </div>
+{% endblock %}

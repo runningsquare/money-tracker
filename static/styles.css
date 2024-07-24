@@ -1,0 +1,185 @@
+/* Side Navigation */
+.sideNav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 72px;
+  left: 0;
+  background-color: #f1f1f1;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+
+li a.active {
+  background-color: #A8E6CE;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+li a.closebtn {
+  text-align: right;
+}
+
+li a.closebtn:hover {
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+
+/* Top Navigation */
+.topNav {
+  background-color: #f1f1f1;
+  padding: 19px 16px;
+}
+
+a.topNavToggle {
+  text-decoration: none;
+  color: #888888;
+  padding: 8px 14px;
+}
+
+a.topNavToggle:hover {
+  color: #000;
+}
+
+a.topNavHeader {
+  text-decoration: none;
+  color: #A8E6CE;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: x-large;
+  padding: 8px 16px;
+}
+
+a.topNavHeader:hover {
+  color: #A8E6CE;
+}
+
+
+/* Main part of programm */
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+
+/* Login and register forms */
+.whole-form {
+  text-align: center;
+}
+
+.input-div {
+  padding-bottom: 18px;
+}
+
+.input-form {
+  width: 19%;
+  padding: 5px 15px;
+  border: 1px solid #D3D3D3;
+  border-radius: 4px;
+}
+
+.input-form:focus {
+ border: 3px solid #99bee0;
+ outline: none;
+}
+
+.btn-form {
+  color: #fff;
+  background-Color: #A8E6CE;
+  border: none;
+  border-radius: 4px;
+  width: 7%;
+  padding: 5px 15px;
+}
+
+
+/* Home page form */
+.dateInput {
+  width: 8%;
+  padding: 0px 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.dateInput:focus {
+  outline: none;
+  border: 3px solid #A8E6CE;
+}
+
+
+/* Index page */
+.homeSection {
+  text-align: center;
+  font-family: "Georgia", serif;
+  font-size: 17px;
+  padding-top: 15px;
+}
+
+.homeSectionHeader {
+  color: #8b2300;
+  padding-bottom: 20px;
+}
+
+.homeSectionHeader2 {
+  color: #429E9D;
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+
+.dateInput.homeSectionInput {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-form.record {
+  color: #fff;
+  background-Color: #A8E6CE;
+  border: none;
+  border-radius: 4px;
+  width: 7%;
+  padding: 5px 15px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.btn-form:hover {
+  background-Color: #81b69d;
+}
+
+
+/* History page */
+.table.table-striped.table-funds {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.table.table-striped.table-history {
+  text-align: center;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .dateInput, .input-form, .btn-form, .btn-form.record {
+    width: 100%;
+  }
+}
