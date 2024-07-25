@@ -1,5 +1,4 @@
 # MONEY TRACKER
-#### Video Demo: https://www.youtube.com/watch?v=qzdZr_w1wrI
 ## Description:
 Money Tracker is a simple web application that helps users to track their money usage.
 This Final project is inspired by the money tracker mobile applications widely available.
@@ -44,3 +43,35 @@ check_input: Check whether expenses and salary inputs submitted in the index pag
 This is the database used in the web application. It consists of 2 tables; users and dailyLog.
 users: Stores user's username, hash password and funds.
 dailyLog: Stores each user's input into the index page.
+
+## Getting Started
+### Prerequisites
+We need pip3 to install our dependencies. Install pip3 if you haven't:
+<br>
+https://pip.pypa.io/en/stable/installation/
+
+Install the following dependencies for the app:
+- cs50
+```
+pip3 install cs50
+```
+- flask
+```
+pip3 install flask
+```
+- flask_session
+```
+pip3 install flask_session
+```
+
+### Installation / Running the App
+Run the following commands to get started:
+```
+git clone https://github.com/runningsquare/money-tracker.git
+```
+```
+cd your-project/
+```
+```
+flask --app application run
+```
