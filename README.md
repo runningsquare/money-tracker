@@ -46,20 +46,15 @@ dailyLog: Stores each user's input into the index page.
 
 ## Getting Started
 ### Prerequisites
-We need pip3 to install our dependencies. Install pip3 if you haven't:
-<br>
-https://pip.pypa.io/en/stable/installation/
+We need pip3 to install our dependencies. Install pip3 if you haven't: https://pip.pypa.io/en/stable/installation/
 
 Install the following dependencies for the app:
-- cs50
 ```
 pip3 install cs50
 ```
-- flask
 ```
 pip3 install flask
 ```
-- flask_session
 ```
 pip3 install flask_session
 ```
