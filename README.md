@@ -1,4 +1,5 @@
 # MONEY TRACKER
+CS50x Final Project (2021)
 ## Description:
 Money Tracker is a simple web application that helps users to track their money usage.
 This Final project is inspired by the money tracker mobile applications widely available.
